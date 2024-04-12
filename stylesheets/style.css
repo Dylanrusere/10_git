@@ -1,0 +1,35 @@
+.card{
+    border: 5px solid black;
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.card-head{
+    background-color: brown;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-body{
+    background-image: url(../assets/images/halo_101_4638_rt_wide-223a04471d88e69f9d07ceac1ab6e55c87d7992d-s1400-c100.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.my-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+    input, textarea{
+        width: 60%;
+    }
+}
